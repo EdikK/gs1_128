@@ -59,7 +59,9 @@ class SectionBuilder
         '400' => [1, 30, 'CUSTOMER PURCHASE ORDER NUMBER (400) - must contains between 1-30 digits'],
         '403' => [1, 30, 'ROUTE (403) - must contains between 1-30 digits'],
         '415' => [13, 13, 'GLOBAL LOCATION NUMBER OF THE INVOICE PARTY (415) - must contains excat 13 digits'],
+        '420' => [1, 20, 'SHIP TO DELIVER TO POSTAL CODE - must contains between 1-20 digits'],
         '8020' => [1, 25, 'PAYMENT SLIP REFERENCE NUMBER (8020) - must contains between 1-25 digits'],
+        '92' => [1, 30, 'COMPANY INTERNAL INFORMATION (92) - must contains between 1-30 digits'],
         '96' => [1, 30, 'COMPANY INTERNAL INFORMATION (96) - must contains between 1-30 digits'],
     ];
 }
